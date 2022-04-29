@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: red;
+}
+header, .main, footer{
+    background-color: beige;
+    margin: 20px auto;
+}
+header nav{
+    background-color: darkcyan;
+    overflow: hidden;
+}
+header nav ul{
+    list-style: none;
+    float: right;
+}
+header nav ul li{
+    /*para poner a lista en una sola línea*/
+    float: left;
+}
+header nav ul li a{
+    padding: 10px 20px;
+    display: block;
+    color: blanchedalmond;
+    /*quitar el subrayado a la liga*/
+    text-decoration: none;
+}
+
+.main .articles {
+    width: 68.5%;
+    float: left;
+    margin-right: 1.5%;
+}
+.main .articles article{
+    padding: 20px;
+    background-color: beige;
+}
+aside{
+    width: 30%;
+    background-color: cadetblue;
+    float: left;
+    box-sizing: border-box;
+}
+#contenedor{
+    margin: auto;
+    background-color: white;
+    width: 80%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+footer{
+    background-color: black;
+    color: antiquewhite;
+    clear: both;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}

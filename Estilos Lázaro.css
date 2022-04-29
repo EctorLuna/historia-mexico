@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+}
+#contenedor{
+    margin: auto;
+    background-color: white;
+    width: 80%;
+    margin-top: 50px;
+}
+body{
+    background-color: darkred;
+}
+.Lázaro{
+    padding: 10px; 
+    margin: 10px; 
+}
+footer{
+    background-color: black;
+    color: antiquewhite;
+    clear: both;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
